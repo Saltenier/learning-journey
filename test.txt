@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 version 2
+=======
+version 1 updated!
+>>>>>>> branch1
+completely new line
