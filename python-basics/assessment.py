@@ -104,6 +104,10 @@ with open("test.txt", "w") as file:
 # Your code here:
 
 #dont know... did it in the past though
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
 
 # === CHALLENGE 9: Class ===
 # Create a simple class called Dog with:
@@ -114,6 +118,15 @@ with open("test.txt", "w") as file:
 # Your code here:
 
 #dont remember using an __init__ function, although I may have
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        print(f"{self.name} says Woof!")
+
+buddy = Dog("Buddy")
+buddy.bark()
 
 # === CHALLENGE 10: String Manipulation ===
 # Take this string: "  hello world  "
